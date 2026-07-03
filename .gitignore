@@ -1,0 +1,6 @@
+*.AppImage
+build/
+AppDir/
+appimagetool*
+squashfs-root/
+releases/
