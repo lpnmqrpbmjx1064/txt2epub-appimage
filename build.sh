@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+VERSION="1.0.0"  # keep in sync with CHANGELOG.md
 PYTHON_VERSION="3.12.9"
 SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
 BUILD_DIR="$SCRIPT_DIR/build"
-OUTPUT="$SCRIPT_DIR/txt2epub-x86_64.AppImage"
+OUTPUT="$SCRIPT_DIR/txt2epub-v${VERSION}-x86_64.AppImage"
 
 echo "==> Setting up build directory"
 rm -rf "$BUILD_DIR"
