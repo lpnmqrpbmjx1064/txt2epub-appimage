@@ -18,8 +18,8 @@ Grab the latest `.AppImage` from the [Releases page](https://github.com/lpnmqrpb
 ## Usage
 
 ```bash
-chmod +x txt2epub-x86_64.AppImage
-./txt2epub-x86_64.AppImage          # GUI (default)
+chmod +x txt2epub-v*.AppImage
+./txt2epub-v*.AppImage          # GUI (default)
 ./txt2epub-x86_64.AppImage convert -i book.txt -o book.epub  # CLI
 ./txt2epub-x86_64.AppImage --appimage-extract-and-run  # no FUSE
 ```
