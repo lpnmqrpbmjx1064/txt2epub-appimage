@@ -20,8 +20,8 @@ Grab the latest `.AppImage` from the [Releases page](https://github.com/lpnmqrpb
 ```bash
 chmod +x txt2epub-v*.AppImage
 ./txt2epub-v*.AppImage          # GUI (default)
-./txt2epub-x86_64.AppImage convert -i book.txt -o book.epub  # CLI
-./txt2epub-x86_64.AppImage --appimage-extract-and-run  # no FUSE
+./txt2epub-v*.AppImage convert -i book.txt -o book.epub  # CLI
+./txt2epub-v*.AppImage --appimage-extract-and-run  # no FUSE
 ```
 
 ## Build
@@ -37,3 +37,4 @@ Requires: `python3`, `wget`, `squashfs-tools`, `libfuse2`.
 ## License
 
 **GPLv2** — inherited from [txt2epub](https://github.com/k4yt3x/txt2epub). See [LICENSE](./LICENSE).
+
